@@ -20,6 +20,10 @@ body {
 }
 a {
   text-decoration: none;
+  color: inherit;
+}
+ul {
+    list-style: none;
 }
 h2 {
     font-size: 54px;
@@ -239,3 +243,72 @@ h2 {
     margin-top: 280px;
 }
 
+.footer {
+    background: #f5f5f7;
+    color: #6e6e73;
+}
+.footer-container {
+    padding: 30px 480px 0 480px;
+}
+.footer__text{
+    border-bottom: solid 1px rgb(210, 210, 215);
+}
+.footer__text-item {
+    padding-bottom: 15px;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer__table {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-gap: 10px;
+}
+.footer__table__title {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    padding-top: 20px;
+}
+.footer__table__item {
+    padding-top: 10px;
+    font-size: 12px;
+}
+.footer__botomn {
+    padding-top: 30px;
+    padding-bottom: 18px;
+    font-size: 11px;
+    font-weight: 300;
+}
+.footer__botomn__find{
+    border-bottom: solid 1px rgb(210, 210, 215);
+    padding-bottom: 10px;
+}
+.footer__botomn__find a{
+    color: #2667c5;
+}
+.footer__botomn__end {
+    padding-top: 10px;
+}
+.footer__botomn__end {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__private__list {
+    
+    display: flex;
+}
+.footer__private__list a{
+    color: rgb(42, 42, 45);
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer__private__item {
+    padding: 0 20px;
+}
+.footer__private__item:not(:last-child) {
+    border-right: solid 1px rgb(210, 210, 215);
+}
+.footer__us {
+
+}
