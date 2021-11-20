@@ -105,7 +105,137 @@ h2 {
     font-size: 22px;
     color: #2667c5;
 }
+.iphones {
+    margin-top: 10px;
+}
+.iphone13pro {
+    height: 700px;
+    background-image: url(../images/iphone_13pro_mmm.jpg);
+}
+.iphone13pro__text-block {
+    text-align: center;
+}
+.iphones__title {
+    padding-top: 45px;
+}
+.iphones__desc {
+    font-size: 28px;
+}
+.iphones__links {
+    padding-top: 15px;
+}
+.iphone13 {
+    margin-top: 10px;
+    height: 700px;
+    max-width: 100%;
+    text-align: center;
+    background: url(../images/iphone_13_mmm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__link-text {
+    display: inline-block;
+    margin-right: 20px;
+}
+.iphone13 .iphones__title {
+    color: #fff;
+}
+.iphone13 .iphones__desc {
+    color: plum;
+}
+.collection {
+    margin-top: 10px;
+}
+.collection_item {
+    height: 600px;
+    background: #fbfbfd;
+   
+}
 
+.item2 {
+    background: #f5f5f7;
+}
+.collection {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 600px;
+    grid-gap: 10px;
+    margin: 12px;
+}
+.collection_item {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.colletction__title {
+    padding-top: 55px;
+    font-size: 38px;
+    font-weight: 500;
+}
+.collection__item-desp {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'SF Pro Icons 300', sans-serif;
+}
+.collection__item__links {
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+.collection__item__link-text {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #2667c5;
+    font-family: 'SF Pro Icons 300', sans-serif;
 
-
+}
+.collection__item__img img{
+    height: 58%;
+    object-fit: cover;
+}
+.collection__item__img{
+    padding-top: 30px;
+}
+.colletction__title-red {
+    font-family: 'SF Pro Icons 300', sans-serif;
+    color: #E34140;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 46px;
+}
+.collection__title-logo {
+    height: 56px;
+    margin-top: 5px;
+}
+.item2 .collection__item__img img{
+    height: 59%;
+    object-fit: cover;
+}
+.item4 > img {
+    height: 36px;
+    margin-top: 56px;
+}
+.item5 > img,
+.item6 > img {
+    height: 86px;
+}
+.item6 {
+    background-image: url(../images/promo_dickinson__c9ea4l2f5rki_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.item6 img{
+    display: block;
+}
+.collextion__tv-link {
+    color: white;
+}
+.collection__tv__middle-link {
+    height: 140px;
+    margin-top: 280px;
+}
 
